@@ -40,8 +40,8 @@ This is a Guide for create API's for a note-taking web application.
         $ sudo mysql
         
 
-        Create user for ALL GRANT
-        ============================
+        Create user for ALL GRANT:
+        -------------------------
 
         
         mysql> CREATE USER 'root'@'%' IDENTIFIED BY 'root';
@@ -49,14 +49,14 @@ This is a Guide for create API's for a note-taking web application.
         mysql> FLUSH PRIVILEGES;
 
         Create Database, name is "urbanstop":
-        =================
+        -------------------------------------
 
         mysql> create database urbanstop;
 
 4. Clone this Repository:
 
          
-        git clone https://gitlab.com/cpsln/DataAnalyzer.git 
+        git clone https://github.com/cpsln/APIForAddUpdateTextNote.git 
 
 
 6. Create a new virtualenv for text note api
@@ -64,7 +64,7 @@ This is a Guide for create API's for a note-taking web application.
        
         $ mkvirtualenv textnote
 
-5. Go to the cloned directory ,Location of this is supposed to be "/home/cpsln/Desktop/backend"
+5. Go to the cloned directory ,Location of this is supposed to be "/home/cpsln/Desktop/APIForAddUpdateTextNote"
 
        
         $ cd backend
